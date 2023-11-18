@@ -17,6 +17,7 @@ Notes of relevance to working with Anaconda
 		
 	- There are other things you can do than install to a default home directory
 	- references
+		- https://gist.github.com/pmbaumgartner/2626ce24adb7f4030c0075d2b35dda32 -> Windows conda pack notes
 		- https://stackoverflow.com/questions/59392191/import-existing-conda-environment-from-network-location
 		
 	
