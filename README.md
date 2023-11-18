@@ -14,7 +14,7 @@ Notes of relevance to working with the Anaconda python distribution
 - Activation scripts are different between linux and windows
 - conda-pack is useful to transfer a working environment from one machine to another
 	- It must be created on the same operating system as you are going to use it on
-		- ubuntu -> ubuntu
+		- Ubuntu -> Ubuntu
 		- Windows Server 2016 -> Windows Server 2016
 		
 	- There are other things you can do than install to a default home directory
