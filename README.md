@@ -6,7 +6,7 @@ Notes of relevance to working with the Anaconda python distribution
 - Miniconda [my preference]
 - Micromamba [minimalist shell install useful for headless machine install of a minimal set of packages]
 	- https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
-		- Note that of course the installation url could change if you are automating it
+		- Note that of course the installation url could change if you are automating installaions from the above
 	- For example into an AWS EC2 Deep Learning AMI
 - Mamba : the libmamba solver in the latest conda seems to be working well so far
 	
