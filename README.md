@@ -11,7 +11,7 @@ Notes of relevance to working with the Anaconda python distribution
 - Mamba : the libmamba solver in the latest conda seems to be working well so far
 	
 # Environments
-- activation scripts are different between linux and windows
+- Activation scripts are different between linux and windows
 - conda-pack is useful to transfer a working environment from one machine to another
 	- It must be created on the same operating system as you are going to use it on
 		- ubuntu -> ubuntu
