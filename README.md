@@ -1,7 +1,7 @@
 # conda-notes
 Notes of relevance to working with the Anaconda python distribution
 
-# Distributions
+## Distributions
 - Full Anaconda
 - Miniconda [my preference]
 - Micromamba [minimalist shell install useful for headless machine install of a minimal set of packages]
@@ -10,7 +10,7 @@ Notes of relevance to working with the Anaconda python distribution
 	- For example into an AWS EC2 Deep Learning AMI
 - Mamba : the libmamba solver in the latest conda seems to be working well so far
 	
-# Environments
+## Environments
 - Activation scripts are different between Linux and Windows
 - conda-pack is useful to transfer a working environment from one machine to another
 	- It must be created on the same operating system as you are going to use it on as it is packaging necessary files/binaries
@@ -27,3 +27,12 @@ Notes of relevance to working with the Anaconda python distribution
 	```
 	C:\Users\rscott>robocopy.exe C:\Users\rscott\Downloads\pangeo \\boringnetworkfolder\pangeo /E . /W:1 /R:1 /NFL /MT:64
 	```
+	
+## Hack library finding
+```bash
+echo Continuum/anaconda3/envs/*/lib/python*/site-packages/packageName | sed -E 's/[^ ]+envs\/([^/]+)\/lib[^ ]+/\1/g'
+
+Continuum/anaconda3/condabin/conda.bat info --envs | awk '{print $1}' | xargs -ix Continuum/anaconda3/condabin/conda.bat list -n x | grep dask-geopandas
+
+Continuum/anaconda3/condabin/conda.bat info --envs | awk '{print $1}' | xargs -ix Continuum/anaconda3/condabin/conda.bat list -n x | grep geoapps
+```	
