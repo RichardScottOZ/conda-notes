@@ -8,6 +8,7 @@ Notes of relevance to working with Anaconda
 	- https://mamba.readthedocs.io/en/latest/installation/micromamba-installation.html
 		- Note that of course the installation url could change if you are automating it
 	- For example into an AWS EC2 Deep Learning AMI
+- Mamba : the libmamba solver in the latest conda seems to be working well so far
 	
 # Environments
 - conda-pack is useful to transfer a working environment from one machine to another
