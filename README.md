@@ -17,7 +17,8 @@ Notes of relevance to working with the Anaconda python distribution
 		- Ubuntu -> Ubuntu
 		- Windows Server 2016 -> Windows Server 2016
 		
-	- There are other things you can do than install to a default home directory
+	- There are other things you can do than an install to a default home directory
+	- Need example
 	- References
 		- https://gist.github.com/pmbaumgartner/2626ce24adb7f4030c0075d2b35dda32 -> Windows conda pack notes
 		- https://stackoverflow.com/questions/59392191/import-existing-conda-environment-from-network-location
