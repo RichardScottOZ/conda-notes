@@ -1,5 +1,5 @@
 # conda-notes
-Notes of relevance to working with Anaconda
+Notes of relevance to working with the Anaconda python distribution
 
 # Distributions
 - Full Anaconda
