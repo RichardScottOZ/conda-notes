@@ -18,4 +18,8 @@ Notes of relevance to working with Anaconda
 	- There are other things you can do than install to a default home directory
 	- references
 		- https://stackoverflow.com/questions/59392191/import-existing-conda-environment-from-network-location
+		
 	
+	```
+	C:\Users\rscott>robocopy.exe C:\Users\rscott\Downloads\pangeo \\boringnetworkfolder\pangeo /E . /W:1 /R:1 /NFL /MT:64
+	```
